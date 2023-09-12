@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: cornsilk;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+
+body h1{
+    box-shadow:10px 10px 20px rgba(0.2, 0.2, 0.2, 0.4);
+    padding: 20px;
+    background-color: beige;
+}
