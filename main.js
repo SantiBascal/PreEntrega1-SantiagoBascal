@@ -1,4 +1,4 @@
-/* function sumar(){
+function sumar(){
     let num1 = Number(prompt("ingrese un numero"));
     let num2 = Number(prompt("ingrese un numero"));
     console.log(num1 + num2);
@@ -39,4 +39,4 @@ if(inicio === "calculadora"){
 
 }else{
     console.log("error 404, solo se calcular o jugar");
-} */
+}
