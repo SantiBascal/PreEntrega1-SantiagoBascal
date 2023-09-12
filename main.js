@@ -1,20 +1,21 @@
-let inicio = prompt("calculadora o juego")
+function sumar(){
+    let num1 = Number(prompt("ingrese un numero"));
+    let num2 = Number(prompt("ingrese un numero"));
+    console.log(num1 + num2);
+}
+function restar(){
+    let num1 = Number(prompt("ingrese un numero"));
+    let num2 = Number(prompt("ingrese un numero"));
+    console.log(num1 - num2);
+}
 
-if (inicio == "calculadora") {
-    let num1 = Number(prompt("Ingrese un numero"));
-    let num2 = Number(prompt("Ingrese un numero"));
-    let signo = prompt("+, -, x, % ");
-    if (signo == "+") {
-        console.log(num1 + num2);
-    } else if (signo == "-") {
-        console.log(num1 - num2);
-    } else if (signo == "x") {
-        console.log(num1 * num2);
-    } else if (signo == "%") {
-        console.log(num1 / num2);
+let inicio = prompt("calculadora");
+
+if(inicio === "calculadora"){
+    let signo = prompt("sumar o restar" );
+    if(signo === "sumar"){
+        sumar()
+    }else if(signo === "restar"){
+        restar()
     }
-}else if (inicio === "juego"){
-
-}else{
-    console.log("error 404, solo se 2 palabras (ahora mas)")
 }
